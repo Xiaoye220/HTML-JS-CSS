@@ -4,4 +4,4 @@
 
 效果图：
 
-![ScreenShot](https://github.com/Xiaoye220/H5/blob/master/Qixi/ScreenShot/ScreenShot.gif)
+![ScreenShot](https://github.com/Xiaoye220/HTML-JS-CSS/blob/master/Qixi/ScreenShot/ScreenShot.gif)
