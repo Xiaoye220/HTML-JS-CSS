@@ -1,0 +1,62 @@
+.a_background {
+    width: 100%;
+    height: 100%;
+}
+
+.a_background_top{
+    width: 100%;
+    height: 71.6%;
+    background-image: url("../images/background/a_background_top.png");
+    background-size: 100% 100%;
+}
+
+
+.a_background_middle{
+    width: 100%;
+    height: 13.1%;
+    background-image: url("../images/background/a_background_middle.png");
+    background-size: 100% 100%;
+}
+
+.a_background_bottom{
+    width: 100%;
+    height: 15.3%;
+    background-image: url("../images/background/a_background_bottom.png");
+    background-size: 100% 100%;
+}
+
+/* 云朵 */
+.cloud {
+    position: absolute;
+    z-index: 2;
+}
+
+.bigCloud {
+    left: 10%;
+    top: 0;
+    width: 301px;
+    height: 140px;
+    background-image: url("../images/cloud-big.png");
+    background-size: 100% 100%;
+}
+
+.smallCloud {
+    left: 0;
+    top: 15%;
+    width: 181px;
+    height: 101px;
+    background-image: url("../images/cloud-small.png");
+    background-size: 100% 100%;
+}
+
+/*太阳*/
+.sun {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 90%;
+    width: 201px;
+    height: 201px;
+    background-image: url("../images/sun.png");
+    background-size: 100% 100%;
+}

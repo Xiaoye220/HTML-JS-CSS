@@ -1,0 +1,59 @@
+.b_background {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/background/b_background_dark.png");
+    background-size: 100% 100%;
+}
+
+.b_background_preload {
+    background: url("../images/background/b_background_bright.png") no-repeat -9999px -9999px;
+}
+
+.door {
+    position: absolute;
+    width: 12.64%;
+    height: 24.14%;
+    left: 52.08%;
+    top: 47.8%;
+}
+
+.leftDoor {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("../images/door-left.png");
+    background-size: 100% 100%;
+}
+
+.rightDoor {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    background-image: url("../images/door-right.png");
+    background-size: 100% 100%;
+}
+
+/*鸟*/
+.bird {
+    position: absolute;
+    width: 91px;
+    height: 71px;
+    top: 10%;
+    left: 90%;
+    background-image: url("../images/bird.png");
+    -webkit-animation-name: birdFly;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: step-start;
+}
+
+@-webkit-keyframes birdFly {
+    0%{ background-position: 0 0 }
+    33.33% { background-position: -91px 0 }
+    66.66% { background-position: -182px 0 }
+    100%{ background-position: 0 0 }
+}
